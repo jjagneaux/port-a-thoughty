@@ -1,3 +1,4 @@
+    
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -51,5 +52,13 @@
 		<false/>
 		<key>NSPhotoLibraryUsageDescription</key>
 		<string>Port-A-Thoughty needs access to your photo library to save shared images as notes.</string>
+		<key>NSMicrophoneUsageDescription</key>
+		<string>Port-A-Thoughty needs microphone access to record your voice notes.</string>
+		<key>NSSpeechRecognitionUsageDescription</key>
+		<string>Port-A-Thoughty uses speech recognition to transcribe your voice notes into text.</string>
+		<key>NSCameraUsageDescription</key>
+		<string>Port-A-Thoughty needs camera access to capture images for OCR text extraction.</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>Port-A-Thoughty needs photo library access to select images for OCR text extraction.</string>
 	</dict>
 </plist>
